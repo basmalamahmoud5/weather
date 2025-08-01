@@ -1,0 +1,216 @@
+.navbar {
+    --bs-navbar-nav-link-padding-x: 1.4rem;
+    --bs-navbar-brand-padding-y: 43px;
+    --bs-navbar-brand-margin-end: 40px;
+}
+.btn{
+    --bs-btn-bg:#009ad8 !important;
+    --bs-btn-hover-border-color:#009ad8;
+    --bs-btn-color:white !important;
+}
+
+.navbar-nav  .nav-link{
+    border: solid transparent 2px;
+    color: #009ad8 !important;
+    border-radius: 30px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 5px;
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    
+    border-color: #009ad8;
+    color: #009ad8 !important;
+    border-radius: 30px;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-y: 0.1rem;
+}
+
+.nav-item {
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.navbar {
+    background-color: rgb(30, 32, 43) !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-title {
+    margin-bottom: 5px;
+    font-size: 0.8em;
+    color: white;
+}
+
+.logo-text {
+    font-size: 0.45em;
+    display: block;
+    color: #bfc1c8;
+}
+
+.hero .item {
+    background-image: url(../image/dev2.png);
+    height: 60vh;
+    background-size: cover;
+
+}
+input {
+    color: white !important;
+}
+.hero {
+    background-color: rgb(30, 32, 43);
+}
+.degree{
+    font-size: 3em;
+}
+.hero .btn,
+footer .btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    background-color: #009ad8;
+    color: white;
+
+}
+
+.hero .form-control,
+footer .form-control {
+    background-color: rgb(30, 32, 43);
+    border: none;
+}
+
+.hero .form-control::placeholder,
+footer .form-control::placeholder {
+    color: rgb(147, 147, 148) !important;
+
+}
+
+.card1 header {
+    background-color: rgb(45, 48, 61);
+    color: #bfc1c8;
+
+}
+
+.body{
+    min-height:60vh ;
+}
+
+.card1 {
+    border-radius: 10px;
+}
+.card3 .body {
+    background-color: #5e636e;
+}
+.card-color2{
+      background-color: rgb(50, 53, 68);
+}
+.card-color1{
+      background-color: rgb(38, 41, 54);
+}
+
+.main {
+    color: rgb(168, 168, 168) !important;
+
+}
+
+
+
+.text-main {
+
+    color: #009ad8;
+}
+
+.img-moon {
+    width: 50%;
+}
+
+.cloud {
+    margin-bottom: 49px;
+}
+
+.icon {
+    width: 50%;
+    top: 50%;
+    left: 10%;
+}
+.nav-item .active{
+     border-color: #009ad8;
+    color: #009ad8 !important;
+    border-radius: 30px;
+}
+.day-2 {
+    background-color: rgb(33, 37, 48) !important;
+}
+
+.bg-body2 {
+    background-color: rgb(37, 41, 54);
+}
+.bg-body3 {
+    background-color: rgb(49, 53, 68);
+}
+
+.cards {
+    display: inline-flex;
+    position: relative;;
+    top: 50%;
+    left: 8%;
+    right: 8%;
+
+}
+
+body {
+    background-color: rgb(30, 32, 43);
+
+}
+
+footer {
+    margin-top: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(37, 41, 54); 
+    display: block;
+}
+
+
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+#subscribe:hover{
+background:#009ad8 ;
+color: white;
+}
+
+.social-links a:hover {
+    color: white;
+    background-color: #009ad8;
+}
+footer .btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    background-color: #009ad8;
+    color: white;
+}

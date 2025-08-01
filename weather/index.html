@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>weather</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- ------=======boot strap=======--------- -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- ------=======main styling=======--------- -->
+  <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+
+  <section id="weather">
+    <nav class="navbar navbar-expand-lg  ">
+      <div class="container ">
+        <a class="navbar-brand" href="#">
+          <img src="image/dev1.png" alt="" class="logo">
+          <div class="logo-type float-end ms-2 ">
+            <h1 class="logo-title">Weather</h1>
+            <small class="logo-text">tagline goes here</small>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link active blu" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <div id="Home" class="hero  ">
+      <div class="item pt-4">
+        <div class="container pt-4">
+          <form class="find-location position-relative">
+            <input type="text" placeholder="Find your location..." id="location-input"
+              class="form-control rounded-5 py-3 ">
+            <input type="button" value="Find" id="submit" class="btn btn-hero rounded-5 px-5 py-2 input-button">
+          </form>
+
+        </div>
+      </div>
+    </div>
+    <div class="cards position-absolute ">
+      <div class="container ">
+        <div class="row g-4 " id="weather-container">
+         
+          <!-- <div class="col-md-4">
+            <div class="card1 rounded-3 text-center">
+              <header class="d-flex justify-content-between p-2 day-2 ">
+                <div class="day  m-auto">Wednesday</div>
+              </header>
+              <div class="bg-body2 p-3">
+                <div class="forecast-content position-relative" id="current">
+                  <div class="sun pt-5 pb-2"><img src="image/dev7.png" alt=""></div>
+                  <div class="degree  fs-4">
+                    <div class="num text-white ">20.3<sup>o</sup>C</div>
+                    <div class="num fs-6 main text-white ">19.2<sup>o</sup></div>
+                  </div>
+                  <div class="cloud text-main pt-3 pb-5">Partly Cloudy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card1  rounded-3 text-center">
+              <header class="d-flex justify-content-between p-2 day-2 ">
+                <div class="day  m-auto">Wednesday</div>
+              </header>
+              <div class="bg-body3 p-3">
+                <div class="forecast-content  position-relative" id="current">
+                  <div class="sun pt-5 pb-2"><img src="image/dev7.png" alt=""></div>
+                  <div class="degree  fs-4">
+                    <div class="num text-white ">20.3<sup>o</sup>C</div>
+                    <div class="num fs-6 main text-white ">19.2<sup>o</sup></div>
+                  </div>
+                  <div class="cloud text-main pt-3 pb-5">Partly Cloudy</div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+
+
+    </div>
+    <footer class="site-footer end">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <form action="#" class="subscribe-form position-relative ">
+              <input type="text" placeholder="Enter your email to subscribe..." class="form-control rounded-5 py-3">
+              <button id="subscribe" class="btn btn-hero  rounded-5 px-5 py-2 position-absolute">subscribe</button>
+            </form>
+          </div>
+          <div class="col-md-3 col-md-offset-1 ms-auto">
+            <div class="social-links pt-4 ">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <p class="colophon main pt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </footer>
+
+  </section>
+
+
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
